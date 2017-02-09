@@ -1,0 +1,7 @@
+1.Convert response variable to logical
+2.Check if there is any missing value in response variable. If True, remove.
+3.Check if there is missing value in variables. If True, replace with NA.
+4.Check if there is NULL value in variables. If True, replace with NA.
+5.Check if there is space in the strings of the values. If True, remove spaces or replace with -.
+6.After all the changes, check the vector types. Convert to factor, interger, or logical respectively according to need.
+7.When doing sampling on imbalanced data set, convert response variable to factor first and then do sampling. After   sampling, convert response variabe back to logical for performing machine learning algorithlms.
